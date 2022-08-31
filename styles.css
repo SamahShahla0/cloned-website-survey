@@ -1,0 +1,92 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(161, 161, 161);
+}
+
+h1
+{
+    color:#800202;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 900;
+
+}
+
+#date-word
+{
+    font-size: small;
+    font-weight:lighter;
+    color:rgb(77, 76, 76);
+    
+}
+
+table
+{
+    
+    background-color:rgb(221, 221, 221);
+    border-width: 0cm;
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 400px;
+    margin-right: 200px;
+    
+   
+}
+
+th
+{
+    background-color: white;
+    margin:0%;
+    padding:0%;
+    height: 110px;
+}
+
+.td-choices
+{
+    color:rgb(164, 0, 0)
+}
+
+.td-questions
+{
+    color:#7a0808;
+    font-weight:600;
+    
+}
+
+#submit
+{
+    color: white;
+    background: rgb(85,84,84);
+    background: linear-gradient(111deg, rgba(85,84,84,1) 0%, rgba(134,134,134,1) 99%);
+    height:50px; 
+    width:200px;
+    margin-left: 280px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-style: none;
+    border-radius:0.5em;
+
+}
+
+.blank_row
+{
+    height: 10px !important;
+    background-color:rgb(221, 221, 221) ;
+}
+
+.push-left{
+    padding-left: 8%;
+}
+
+.buttons
+{
+    transform: scale(1.5);
+}
+
+::placeholder {
+    color:grey;
+    opacity: 1; /* Firefox */
+  }
+  
